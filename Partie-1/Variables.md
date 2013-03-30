@@ -5,22 +5,22 @@ Pour les personnes débutant la programmation, une variable permet de stocker un
 
 En ruby, la syntaxe est la suivante :
 
-    > variable = valeur
+    variable = valeur
 
 Stockons par éxemple la valeur ``Thomas`` dans une variable qu'on appellera ``prenom``
 
-    > prenom = "thomas"
-    > "thomas"
+    prenom = "thomas"
+    => "thomas"
 
 Parfait, on peut maintenant accéder à notre variable par son nom :
 
-    > prenom
+    prenom
     => "thomas"
 
 De même avec un nombre :
 
-    > age = 42
-    > 42
+    age = 42
+    => 42
 
 Nous avons donc crée deux variables, une contenant une chaîne, l'autre contenant un nombre entier.
 
@@ -34,5 +34,5 @@ Par exemple, stockons 2 nombres dans 2 variables, et stockons leur addition dans
 
 Nous pouvons ensuite accéder au résultat dans la variable ``addition``
 
-    > addition
+    addition
     => 42
