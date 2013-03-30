@@ -15,16 +15,16 @@ On se retrouve avec une invite de commandes :
 
 Ruby supporte les opérations arithmétiques comme de nombreux langages, on essaie rapidement :
 
-    > 1 + 1
+    1 + 1
     => 2
 
-    > 10 / 2
+    10 / 2
     => 5
 
-    > 3 * 3
+    3 * 3
     => 9
 
-    > 11 % 2
+    11 % 2
     => 1
 
 
@@ -38,7 +38,7 @@ En Ruby, une chaine de caractères peut être définie avec des guillemets doubl
 
 On peut appeler une fonction avec la même syntaxe qu'en PHP, en C / ++ :
 
-    > puts("Hello world")
+    puts("Hello world")
     Hello world
     => nil
 
@@ -55,7 +55,7 @@ Il s'agit du retour de méthode, la méthode puts retourne ``nil``, il s'agit d'
 
 Il est possible de produire le même résultat en omettant les parenthèses :
 
-    > puts "Hello world"
+    puts "Hello world"
     Hello world
     => nil
 
@@ -65,12 +65,12 @@ Il s'agit la d'un des nombreux sucres syntaxiques de Ruby
 
 Comme montré plus haut, il est possible de créer une chaine de caractères avec des guillemets.
 
-    > "test"
+    "test"
     => "test"
 
 Ruby est un langage qui se veut intuitif, voyez par vous même, ajoutons deux chaines :
 
-    > "Hello" + " world"
+    "Hello" + " world"
     => "Hello world"
 
 Il est possible d'effectuer des opérations sur une chaine en effectuant un appel de méthode dessus.
@@ -81,7 +81,7 @@ Si vous n'êtes pas à l'aise avec la programmation orientée objet, **pas de pa
 
 Testons donc :
 
-    > "Hello".size
+    "Hello".size
     => 5
 
 Nous venons d'appeler la méthode ``size`` sur la chaine ``"hello"``
@@ -90,11 +90,11 @@ Cette méthode ne prend pas de paramètre, nous aurions pu aussi l'appeler avec 
 
 Pour l'exemple, voici d'autres appels de méthodes :
 
-    > "hello".capitalize
+    "hello".capitalize
     => "Hello"
-    > "hello".upcase
+    "hello".upcase
     => "HELLO"
-    > "HELLO".downcase
+    "HELLO".downcase
     => "hello"
 
 Vous savez maintenant manipuler basiquement des chaines !
