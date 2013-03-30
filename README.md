@@ -1,7 +1,7 @@
 Tutoriel Ruby, en Français s'il vous plaît.
 ======================
 
-A terme, un tutoriel pour apprendre ruby, en français. 
+A terme, un tutoriel pour apprendre ruby, en français.
 
 Aujourd'hui, parler Anglais devient presque nécessaire dans le domaine de la programmation. Peu de resources sont disponibles en français, et c'est bien dommage.
 
@@ -11,9 +11,9 @@ Même si parler Anglais est un plus considérable, ce n'est pas une raison de ne
 
 1. Apprenez Ruby de Zéro
  * [Installation (OSX, Linux)](Partie-1/Installation.md#installation)
- * Premières instructions avec irb (Calculs, strings, etc)
+ * [Premières instructions avec irb (Calculs, strings, etc)](Partie-1/Premieres-Instructions-irb.md#premires-instructions-aver-irb)
  * Dans un fichier, c'est mieux, revue rapide des IDEs Ruby / Rails connus
- * Les variables
+ * [Les variables](Partie-1/Variables.md#les-variables)
  * Les conditions, les boucles while / for
  * Les fonctions
  * Passage en revue des types primitifs : ``Array`` / ``Hash`` / ``String`` / ``Fixnum``, etc
