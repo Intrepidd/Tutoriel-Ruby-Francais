@@ -61,7 +61,7 @@ Il est possible de produire le même résultat en omettant les parenthèses :
 
 Il s'agit la d'un des nombreux sucres syntaxiques de Ruby
 
-### Jouons un peu avec les chaines
+## Jouons un peu avec les chaines
 
 Comme montré plus haut, il est possible de créer une chaine de caractères avec des guillemets.
 
@@ -72,6 +72,16 @@ Ruby est un langage qui se veut intuitif, voyez par vous même, ajoutons deux ch
 
     "Hello" + " world"
     => "Hello world"
+    
+Et si on voulait afficher 5 fois la chaine ``"toto"`` ?
+
+    "toto" * 5
+    => "totototototototototo"
+    
+Mélangons les 2 :
+
+    "na" * 10 + " Batman !"
+    => "nananananananananana Batman !"
 
 Il est possible d'effectuer des opérations sur une chaine en effectuant un appel de méthode dessus.
 
