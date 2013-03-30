@@ -10,7 +10,7 @@ Même si parler Anglais est un plus considérable, ce n'est pas une raison de ne
 ## Plan proposé
 
 1. Apprenez Ruby de Zéro
- * Installation (OSX, Linux, Windows)
+ * [Installation (OSX, Linux)](Partie-1/Installation.md#installation)
  * Premières instructions avec irb (Calculs, strings, etc)
  * Dans un fichier, c'est mieux, revue rapide des IDEs Ruby / Rails connus
  * Les variables
